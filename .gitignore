@@ -1,3 +1,13 @@
 venv/
 .idea/
 despesas.json
+
+
+
+# Ambiente virtual do Python (bibliotecas instaladas): Não deve ir ao repositório,
+# porque pode ser recriado a qualquer momento com "pip install" a partir de um requirements.txt  (venv/)
+
+#Configurações internas do PyCharm (específicas da máquina de cada dev) - (.idea/)
+
+# Dados reais de despesas do usuário: contém informações financeiras pessoais,
+# Não deve ser publicado no GitHub (despesas.json)
