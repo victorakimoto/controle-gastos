@@ -60,7 +60,7 @@ def cadastrar_despesa():
         "\nEscolha a forma de pagamento:"
     )
     # Monta um dicionário com todos os dados coletados
-    # Estrutura usada em todo o resto do programa
+    # Estrutura usada em todx o resto do programa
     nova_despesa = {
         "descricao": descricao,
         "tipo": tipo,
