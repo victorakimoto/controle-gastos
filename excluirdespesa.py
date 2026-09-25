@@ -17,6 +17,7 @@ def excluir_despesa():
         return
     indice = numero - 1
     despesa_excluida = despesas.pop(indice)
+    salvar_despesas()
 
     print(
         f"Despesa: '{despesa_excluida['descricao']}'"
