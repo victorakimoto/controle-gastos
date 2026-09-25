@@ -60,5 +60,6 @@ def cadastrar_despesa():
     }
 
     despesas.append(nova_despesa)
+    salvar_despesas()
 
     print("\nDespesa cadastrada com sucesso.")
