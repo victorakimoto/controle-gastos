@@ -1,4 +1,5 @@
-from despesas import despesas
+from despesas import despesas, salvar_despesas
+
 
 def excluir_despesa():
     if not despesas:
